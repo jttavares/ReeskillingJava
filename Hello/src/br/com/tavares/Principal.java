@@ -1,36 +1,26 @@
 package br.com.tavares;
 
+import br.com.tavares.intro.AulaIntrodutorua;
+import br.com.tavares.poo.Aluno;
 import br.com.tavares.poo.Carro;
+import br.com.tavares.poo.Funcionario;
 
 public class Principal {
 
 	public static void main(String[] args) {
-		System.out.println("Bom dia Turma!");	
+		//AulaIntrodutorua.Start();
 		
-		boolean condicao = true;
-		if (!condicao) {
-			System.out.println("Condição verdadeira");
-		}else {
-			System.out.println("Condição falsa");
-		}
+		//Carro.CarroExercises();
 		
-		int x =5;
-		if(x>5) {
-			System.out.println("x>5");
-		}else if(x<5){
-			System.out.println("x<5");
-		}else{
-			System.out.println("x==5");
-		}
+		Aluno.Demo();
+		System.out.println("\n-----------------------\n");
+		Funcionario.Demo();
 		
-		Carro carro = new Carro();
-		carro.setMarca("Ford");
-		carro.setModelo("Escort");
-		carro.setCor("Prata");
-		carro.ligar();
-		carro.parar();
+		
 		
 		
 	}
+
+	
 
 }
