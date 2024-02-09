@@ -24,8 +24,7 @@ public class Principal {
 		*/
 		
 		//Exceptions.Demo();
-		//Exceptions.DemoFile();
-		Exceptions.DemoExceptionPersonalizada();
+		Exceptions.DemoFile();
 		
 		
 		
